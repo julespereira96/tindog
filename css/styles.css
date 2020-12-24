@@ -1,0 +1,164 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* This is a multiple selector */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-size: 20px;
+  color: #8f8f8f;
+}
+
+/* Headings */
+.page-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Title section */
+/* Hierarchical selectors */
+#title .container-fluid {
+  padding: 0 15% 7%;
+  text-align: left;
+}
+
+/* .container has a max width pixel value, whereas .container-fluid is max-width 100%. */
+/* If it is important that the content stretch the full width of the browser window at all widths, then use the container-fluid class. */
+.container-fluid {
+  /* top left/right bottom */
+  padding: 7% 15%;
+}
+
+/* Image */
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* navigation */
+.navbar {
+  padding: 2.5rem 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download-buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+/* position is relative and not absolute because absolute takes out the html structure out of its natural flow. */
+#features {
+  position: relative;
+}
+
+.features {
+  font-size: 1.5rem;
+}
+
+/* Features content */
+.fas {
+  color: #ec5858;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-spacing {
+  margin-bottom: 60px;
+}
+
+#pricing {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.mail {
+  color: black;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Section */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.row{
+      margin-bottom: 80px;
+}
+
+
+.dogs-needs{
+      margin-top: 80px;
+}
